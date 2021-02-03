@@ -1,2 +1,4 @@
-﻿  14-1-1.c
+﻿  15-5.c
+C:\Users\ydh05\source\repos\ardorC\ardorC\15-5.c(14,9): warning C4101: 'j': unreferenced local variable
+C:\Users\ydh05\source\repos\ardorC\ardorC\15-5.c(14,6): warning C4101: 'i': unreferenced local variable
   ardorC.vcxproj -> C:\Users\ydh05\source\repos\ardorC\Debug\ardorC.exe
