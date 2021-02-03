@@ -1,8 +1,6 @@
 //==========================================================
 //
 // Title:      <application>
-// Course:     CSC 1101
-// Lab Number: <number>
 // Author:     Daehwan Yoo
 // Date:       <date>
 // Description:
