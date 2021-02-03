@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="4-4-2.C">
+    <ClCompile Include="12-1-2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
