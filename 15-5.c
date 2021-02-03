@@ -1,48 +1,55 @@
 //==========================================================
 //
-// Title:      15-1
+// Title:      16-1-3
 // Author:     Daehwan Yoo
 // Date:       Feb-3-2020
 // Description:
-//   Bubble sort, descending order
+//   Grading management program using dimensional array.
 // 
 //==========================================================
 #include <stdio.h>
 
-void Bubblesort(int arr[], int len)
+void WriteRecord(void)
 {
+	int sum;
 	int i, j;
-	int temp;
-	for (int i = 0; i < len-1; i++)
+	for (int i = 0; i < 4; i++)
 	{
-		for (int j = 0; j < (len-i)-1; j++)
+		sum = 0;
+		printf("%d student's grade \n", i + 1);
+		for (int j = 0; j < 4; j++)
 		{
-			if (arr[j] < arr[j + 1])
-			{
-				temp = arr[j];
-				arr[j] = arr[j + 1];
-				arr[j + 1] = temp;
-			}
+			printf("Subject %d: ", j + 1);
+			scanf("%d", &record[i][j]);
+			sum += record[i][j];
 		}
-
+		record[i][4] = sum;
 	}
 }
-
 int main(void)
 {
-	int a[7];
-	for (int i = 0; i < 7; i++)
+	int record[5][5];
+	int result=0, totalresult=0;
+	for (int i = 0; i < 4; i++)
 	{
-		printf("Input: ");
-		(void)scanf("%d", &a[i]);
-	}
-	Bubblesort(a, sizeof(a) / sizeof(int));
-	for (int i = 0; i < 7; i++)
-	{
-		printf("%d", a[i]);
+		for (int j = 0; j < 4; j++)
+		{
+			printf("Input for arr[ %d ][ %d ]: ", i+1,j+1);
+			(void)scanf("%d", &arr[i][j]);
+			arr[i][4] += arr[i][j];
+		}
+		result += arr[i][4];
+
 	}
 
-	printf("\n");
+	for (int i = 0; i < 5; i++)
+	{
+		for (int j = 0; j < 5; j++)
+		{
+			printf("Show the saved data, arr[%d][%d]: %d \n", i+1,j+1, arr[i][j]);
+		}
+	}
+	printf("Therefore, the total result is: %d", result);
 
 	return 0;
 }
