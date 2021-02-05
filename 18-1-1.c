@@ -15,7 +15,8 @@ int main(void)
 	int* arr2[3][5];
 
 	int** a1 = arr1;
-	int*(*a2)[5] = arr2;
+	int*(*a2)
+		[5] = arr2;
 
 	return 0;
 }
