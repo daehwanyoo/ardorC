@@ -1,3 +1,2 @@
-﻿  testing.c
-C:\Users\ydh05\source\repos\ardorC\ardorC\testing.c(8,15): warning C4477: 'scanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'int'
+﻿  Challenge3-1.c
   ardorC.vcxproj -> C:\Users\ydh05\source\repos\ardorC\Debug\ardorC.exe
