@@ -1,10 +1,2 @@
-﻿  Testing for 21.c
-C:\Users\ydh05\source\repos\ardorC\ardorC\Testing for 21.c(12,19): warning C4273: 'putchar': inconsistent dll linkage
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(348,26): message : see previous definition of 'putchar'
-C:\Users\ydh05\source\repos\ardorC\ardorC\Testing for 21.c(13,31): warning C4273: 'fputc': inconsistent dll linkage
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(216,26): message : see previous definition of 'fputc'
-C:\Users\ydh05\source\repos\ardorC\ardorC\Testing for 21.c(14,18): warning C4273: 'getchar': inconsistent dll linkage
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(306,26): message : see previous definition of 'getchar'
-C:\Users\ydh05\source\repos\ardorC\ardorC\Testing for 21.c(15,24): warning C4273: 'fgetc': inconsistent dll linkage
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(177,26): message : see previous definition of 'fgetc'
+﻿  21-2-1.c
   ardorC.vcxproj -> C:\Users\ydh05\source\repos\ardorC\Debug\ardorC.exe

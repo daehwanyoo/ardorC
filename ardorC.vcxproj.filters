@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Testing for 21.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="21-1.c">
+    <ClCompile Include="21-2-1.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
